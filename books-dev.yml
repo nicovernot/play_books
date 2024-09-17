@@ -2,6 +2,7 @@
   hosts: all
   tasks:
    - name: Ping my hosts
+     become: yes
      ansible.builtin.ping:
 
    - name: ch dir 
