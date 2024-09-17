@@ -1,0 +1,9 @@
+- name: My first play
+  hosts: myhosts
+  tasks:
+   - name: Ping my hosts
+     ansible.builtin.ping:
+
+   - name: ch dir 
+     ansible.builtin.command: /home/vernot/oebooks
+     become: true 
