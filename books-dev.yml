@@ -1,5 +1,5 @@
 - name: My first play
-  hosts: books-dev
+  hosts: books-dev-v2
   tasks:
    - name: Ping my hosts
      ansible.builtin.ping:
